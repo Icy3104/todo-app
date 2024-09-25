@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orillaza C3A Tasklist</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+
+    <header>
+        <h1>Task List for Ansemics</h1>
+        <form id="new-task-form">
+            <input
+            type="text"
+            id="new-task-input"
+            placeholder="What are your plans?" />
+            <input
+            type="submit"
+            id="new-task-submit"
+            value="Add task" />
+        </form>
+    </header>
+
+
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <p id="no-tasks">No todos available. Add a todo to get started!</p>
+            <div id="tasks"></div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
